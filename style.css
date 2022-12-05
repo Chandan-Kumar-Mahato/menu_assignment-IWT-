@@ -1,0 +1,71 @@
+/* 1. Add a background color of rgb(117, 115, 115) to the div with class a nav, set its position as relative,
+padding to 5px and font size to 18px. */
+div {
+    background-color:rgb(117, 115, 115) ;
+    position: relative;
+    padding: 5px;
+    font-size: 18px;
+}
+/* 2. Set height and width of the image inside the div with class nav to 35px and 40px. */
+.nav img{
+    height: 35px;
+    width: 40px;
+
+}
+/* 3. Set display of ul inside the div with class nav to inline-block, set its margin and padding to 0 and position
+it to right side of the container with absolute positioning. */
+div ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+}
+/* 4. Set the list-style-type of all the li inside ul to none and display to inline-block also give it a relative
+position with padding of 10px 20px; */
+li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+
+}
+/* 5. Set the text-decoration property to none and color to #fff of all the anchor tags inside the list items. */
+li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+/* 6. Change the background color of list items to #322 when mouse is hovered on it. */
+li:hover{
+    background-color:#322 ;
+}
+/* 7. Set position of ul with class drop-down to absolute and move to from top to 40px. Also set its padding
+& opacity property to 0. Also add linear transition property which changes the opacity with a delay of
+0.5 seconds. */
+ul.drop-down {
+    position: absolute;
+    top: 40px;
+    padding: 0px;
+    opacity: 0;
+    transition: linear 0.5s ;
+   
+}
+/* 8. Set the padding of all the li’s inside the drop-down class to 10px. Align them to the center. And sets its
+background color to rgb(144, 142, 142). Also a solid white border of 2px. */
+.drop-down li  {
+    padding: 10px;
+    background-color:rgb(144, 142, 142) ;
+    text-align: center;
+    border: 2px solid white;
+}
+/* 9. Change the opacity of .drop-down class to 1 when the mouse is hovered on the Service list item. Also
+add linear transition property which changes the opacity with a delay of 0.2 seconds. */
+.drop-down:hover{
+    opacity: 1;
+    transition:linear 0.2s ;
+    
+}
+.drop-down li:hover{
+    background-color: #322;
+}
